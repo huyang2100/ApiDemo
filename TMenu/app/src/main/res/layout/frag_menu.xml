@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_contextMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Context Menu" />
+
+    <Button
+        android:id="@+id/btn_modeMenuLv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mode Menu ListView" />
+
+    <Button
+        android:id="@+id/btn_modeMenuSv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mode Menu SingleView" />
+
+    <Button
+        android:id="@+id/btn_popMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Popup menu" />
+</LinearLayout>
