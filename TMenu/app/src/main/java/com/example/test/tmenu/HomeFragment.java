@@ -22,6 +22,7 @@ public class HomeFragment extends Fragment implements View.OnClickListener {
         v.findViewById(R.id.btn_menu).setOnClickListener(this);
         v.findViewById(R.id.btn_dialog).setOnClickListener(this);
         v.findViewById(R.id.btn_toast).setOnClickListener(this);
+        v.findViewById(R.id.btn_search).setOnClickListener(this);
         return v;
     }
 
@@ -36,6 +37,9 @@ public class HomeFragment extends Fragment implements View.OnClickListener {
                 break;
             case R.id.btn_toast:
                 getFragmentManager().beginTransaction().replace(R.id.frag_content,new ToastFragment()).addToBackStack(null).commit();
+                break;
+            case R.id.btn_search:
+                getFragmentManager().beginTransaction().replace(R.id.frag_content,new SearchFragment()).addToBackStack(null).commit();
                 break;
         }
     }
